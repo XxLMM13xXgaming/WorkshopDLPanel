@@ -20,7 +20,7 @@ function WorkshopDownloadCheck()
 	WSButton:SetPos( 5, 40 )
 	WSButton:SetSize( 100, 30 )
 	WSButton.DoClick = function()
-		gui.OpenURL("http://steamcommunity.com/sharedfiles/filedetails/?id=532963340") --set your workshop content url here, or your FastDL link.
+		gui.OpenURL("http://yourlink.com/content/") --set your workshop content url here, or your FastDL link.
 		Frame:Close()
 	end
 
