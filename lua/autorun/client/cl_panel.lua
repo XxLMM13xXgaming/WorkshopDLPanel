@@ -1,6 +1,5 @@
 function WorkshopDownloadCheck()
 	local Frame = vgui.Create( "DFrame" )
-	--Frame:SetPos( ScrW()/2, ScrH()/2 )
 	Frame:Center()
 	Frame:SetSize( 300, 75 )
 	Frame:SetTitle( "Steam Workshop" )
