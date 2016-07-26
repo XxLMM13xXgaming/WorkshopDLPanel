@@ -1,5 +1,7 @@
+util.AddNetworkString("WSDLCheck")
+
 function WSDLCheckOpen(ply)
-    umsg.Start ("WSDLCheck", ply)
-    umsg.End()
+    net.Start("WSDLCheck")
+    net.Send(ply)
 end
 hook.Add("PlayerInitialSpawn", "WSDLCheckOpen", WSDLCheckOpen)
