@@ -32,5 +32,6 @@ function WorkshopDownloadCheck()
 		Frame:Close()
 	end
 end
+
+net.Receive("WSDLCheck", WorkshopDownloadCheck)
 concommand.Add("OpenWSDL", WorkshopDownloadCheck)
-usermessage.Hook ("WSDLCheck", WorkshopDownloadCheck)
